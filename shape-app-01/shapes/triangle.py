@@ -2,13 +2,13 @@
 
 
 class Triangle:
-    def create(s1,s2,s3):
-        t=Triangle()
-        t.s1=s1
-        t.s2=s2
-        t.s3=s3
-        t.validate()
-        return t
+    def create(self,s1,s2,s3):
+        ## t=Triangle() #you don't have to create
+        self.s1=s1
+        self.s2=s2
+        self.s3=s3
+        self.validate()
+        #return t # you may not need to return this value
         
     def validate(self):
         self.valid=self.s1>0 and self.s2>0 and self.s3>0 \
