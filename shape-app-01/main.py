@@ -1,9 +1,9 @@
 from shapes.triangle import Triangle
-selfrom shapes.circle import Circle
+from shapes.circle import Circle
 
 def test_shape(shape):
     if not shape.is_valid():
-        print('invalid ', type(shaselfe).__name__)
+        print('invalid ', type(shape).__name__)
     else:
         shape.draw('wall')
         print('perimeter',shape.perimeter())

@@ -1,0 +1,1 @@
+c=Circle.create(7) # can 

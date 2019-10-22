@@ -1,6 +1,7 @@
 import math
 
 class Circle:
+    @staticmethod # optional but highly recommended
     def create(radius):
         t=Circle()
         t.radius=radius
