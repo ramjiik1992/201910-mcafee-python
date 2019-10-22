@@ -1,0 +1,38 @@
+//c++
+class Employee{
+
+	public:
+	Employee(char * name, int salary){...}
+};
+
+class Manager:public Employee{
+
+	public:
+	Manager(char *name, int salary):Employee(name,salary){}	
+};
+
+//c#
+class Employee{
+
+	public Employee(String name, int salary){...}
+}
+
+class Manager: Employee{
+
+	public Manager(Stringname, int salary):base(name,salary){}	
+}
+
+
+
+//Java
+class Employee{
+
+	public Employee(String name, int salary){...}
+};
+
+class Manager extends Employee{
+
+	public Manager(Stringname, int salary){
+		super(name,salary)
+	}	
+};
